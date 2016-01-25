@@ -3,7 +3,7 @@ Git allows groups of people to work on the same documents (often code) at the sa
 
 Our terminal prompt below is currently in a directory we decided to name "octobox". To initialize a Git repository here, type the following command:
 
-git init
+`git init`
 
 ### 1.2 Checking the Status
 Good job! As Git just told us, our "octobox" directory now has an empty repository in /.git/. The repository is a hidden directory where Git operates.
