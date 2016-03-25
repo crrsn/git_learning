@@ -106,6 +106,13 @@ $ git stash apply
 ```
 Success!
 
+or
+``
+$ git stash apply
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+``
+You need to merge the conflicted lines as usual...
 
 
 
