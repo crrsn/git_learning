@@ -28,3 +28,10 @@ Interactive rebase alters every commit **after** the one you specify:
 ```
 $ git rebase -i HEAD <- there's no commits after HEAD!
 ```
+### Reorder commits
+```
+$ git log --oneline
+9afe987 Actually, the plural is 'capybara'.
+1ee9572 Add capybaras page.               |We want to re-order two commits
+74e6f3e Add capybaras to index.           |
+```
