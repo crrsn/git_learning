@@ -62,4 +62,11 @@ git stash
 ``
 git stash save
 ``
+
+``
+git stash apply
+``
+``
+git stash apply statsh@{0}
+``
 ***
