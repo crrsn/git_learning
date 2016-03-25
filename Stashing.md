@@ -40,3 +40,10 @@ For example:
 $ git stash list
 stash@{0}: WIP on develop: b2bdead Add dogs.
 ```
+Stash has been applied but it's still here.
+
+```
+$ git stash drop
+Dropped (6dc716f...)
+``` 
+Delete it from list
