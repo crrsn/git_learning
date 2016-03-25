@@ -243,7 +243,7 @@ gerbil.html  |  5 +++++
 index.html   |  1 +
 2 files changed, 8 insertions(+)
 ```
-Also take any option `git log` can. For example, `--patch` shows file diffs
+Also take any option `git log` can. For example, `--patch` **shows file diffs**
 ```
 $ git stash show --patch
 diff --git a/gerbil.html b/gerbil.html
