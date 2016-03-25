@@ -2,5 +2,5 @@ stash [stæʃ] (v) - прекращать, "завязывать", бросат�
 to stash drinking — бросить пить
 
 ```
-$ git stash save 
+$ git stash save - saves modified files
 ```
