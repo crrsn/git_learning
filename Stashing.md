@@ -188,7 +188,7 @@ $ git commit -m "Add gerbils section."
 1 file changed, 7 insertions(+)
 create mode 100644 gerbil.html
 ```
-
+**Unstaged changes get stashed and restored as usual**
 
 
 
