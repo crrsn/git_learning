@@ -139,6 +139,10 @@ $ git status
 # On branch develop
 # Changes to be commited:
 #  new file: gerbil.html <-- we want to commit this
+#
+# Changes not staged for commit:
+#
+#  modified: index.html  <-- and stash everything else
 ```
 
 
