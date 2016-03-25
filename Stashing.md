@@ -194,11 +194,12 @@ $ git stash pop
 # On branch develop
 # Changes not staged for commit:
 #
-#  modified:  "index.html"
+#  modified:  index.html
 #
 no changes added to commit
 Dropped refs/stash@{0} (db990c0...)
 ```
+### Include untracked 
 
 
 
