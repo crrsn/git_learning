@@ -114,7 +114,23 @@ CONFLICT (content): Merge conflict in index.html
 ```
 You need to merge the conflicted lines as usual...
 
-
+If you're using the `pop` shortcut, and thers's a conflict
+```
+$ git stash pop
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+```
+You _also_ need to merge the conflicted lines as usual...
+And the stash won't be dropped automatically
+```
+$ git stash list
+stash@{0}: WIP on develop: b2bdead Add dogs.
+```
+So be sure to do it manually
+```
+$ git stash drop
+Dropped refs/stash@{0} (e4ba8a4...)
+```
 
 
 
