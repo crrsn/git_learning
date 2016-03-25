@@ -96,7 +96,7 @@ Please, commit your changes or stash them before you can merge.
 Aborting
 ```
 
-Commit or reset your local changes and then make 
+Commit or reset (`git reset --hard HEAD`) your local changes and then make 
 ```
 $ git stash apply
 # On branch develop
