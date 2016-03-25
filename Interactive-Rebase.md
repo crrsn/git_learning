@@ -75,9 +75,34 @@ M  index.html
 since we don't specify **--hard**, files stay in working directory. Then commit them separately:
 ```
 $ git add capybara.html
-$ git commit -m "Message..."
+$ git commit -m "Change plural on detail page to 'capybara'"
 ```
 ```
 $ git add index.html
-$ git commit -m "Message..."
+$ git commit -m "Change plural on index page to 'capybara'"
+```
+New commits are in place, now we need to finish the rebase
+```
+$ git rebase --continue
+```
+```
+$ git log --oneline
+e8005f4 Change plural on index page to 'capybara'.
+6e8e5d6 Change plural on detail page to 'capybara'.
+7d2edea Add capybaras to index.
+44d59fa Add capybaras page.
+```
+### Squash commits
+**squash** merges a commit with the previous commit
+```
+...
+pick 6e8e5d6 Change plural on detail page to 'capybara'
+squash e80005f4 Change plural on index page to 'capybara' 
+``` 
+Another editor pops up, with the commits being squashed. Enter the message for the new commit, save, and exit.
+```
+$ git log --oneline
+1c4614d Change plurals to 'capybara' <- one commit, with the changes to both files
+7d2edea Add capybaras to index.
+44d59fa Add capybaras page.
 ```
