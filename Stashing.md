@@ -223,10 +223,17 @@ $ git stash pop
 ```
 $ git stash list --stat
 stash@{0}: WIP on develop: b2bdead Add dogs.
-gerbil.html  |  7 +++++
+gerbil.html  |  5 +++++
 index.html   |  1 +
-wolf.html    |  7 -----
+wolf.html    |  5 -----
 3 files changed, ...
 ```
-
+### Stash show
+Shows one perticular stash:
+```
+$ git stash show stash@{0}
+gerbil.html  |  5 +++++
+index.html   |  1 +
+2 files changed, 8 insertions(+)
+```
 
