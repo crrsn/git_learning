@@ -168,7 +168,7 @@ $ git stash pop
 #
 Dropped refs/stash@{0} (de4105a...)
 ```
-`--keep-index` option causes the staging area not to be stashed 
+`--keep-index` **option causes the staging area not to be stashed** 
 ```
 $ git stash save --keep-index
 Saved working directory and index state
