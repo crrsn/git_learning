@@ -63,3 +63,9 @@ Change **pick** to **reword**, then save and exit
 pick...
 reword 9afe987 Actually, the plural is 'capybara'.
 ```
+### Split commits
+Change the **pick** to **edit**.
+To split commits, we need to undo the changes that were just replayed:
+```
+$ git reset HEAD^ (if we want to split the last commit)
+```
