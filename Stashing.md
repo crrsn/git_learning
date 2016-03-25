@@ -236,4 +236,8 @@ gerbil.html  |  5 +++++
 index.html   |  1 +
 2 files changed, 8 insertions(+)
 ```
-
+Like **apply** and **drop**, acts on most recent stash by default:
+$ git stash show
+gerbil.html  |  5 +++++
+index.html   |  1 +
+2 files changed, 8 insertions(+)
