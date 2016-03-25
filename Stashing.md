@@ -200,7 +200,7 @@ no changes added to commit
 Dropped refs/stash@{0} (db990c0...)
 ```
 ### Include untracked 
-
+Normally, only **tracked** files get stashed
 
 
 
