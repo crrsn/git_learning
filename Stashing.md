@@ -99,6 +99,10 @@ Aborting
 Commit or reset your local changes and then make 
 ```
 $ git stash apply
+# On branch develop
+# Changes not staged for commit:
+...
+# modified: index.html
 ```
 
 
