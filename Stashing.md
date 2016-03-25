@@ -6,3 +6,9 @@ to stash drinking — бросить пить
 $ git stash save
 ```
 **So, write now all changes are hidden.**
+
+- bring stashed files back
+
+```
+$ git stash apply
+```
