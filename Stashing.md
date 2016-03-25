@@ -87,6 +87,7 @@ git stash drop
 
 ### Stash conflicts
 
+Conflicts are possible when applying a stash.
 ```
 $ git stash apply
 error: Your local changes to the following files would be overwritten by merge:
@@ -94,7 +95,6 @@ index.html
 Please, commit your changes or stash them before you can merge.
 Aborting
 ```
-Conflicts are possible when applying a stash.
 
 Commit or reset your local changes and then make 
 ```
