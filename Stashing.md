@@ -29,3 +29,5 @@ WIP - work in progress
 ```
 $ git stash apply stash@{1}
 ```
+
+### Drop stashes
