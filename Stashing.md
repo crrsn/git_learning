@@ -24,3 +24,5 @@ stash@{1}: WIP on develop: b2bdead Add dogs.
 ```
 
 WIP - work in progress
+
+'stash@{0}' is the defualt when applying; specify the stash name to apply a different one
