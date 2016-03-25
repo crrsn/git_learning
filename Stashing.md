@@ -22,3 +22,5 @@ stash@{0}: WIP on master: 686b55d Add wolves.
 stash@{1}: WIP on develop: b2bdead Add dogs.
 ...
 ```
+
+WIP - work in progress
