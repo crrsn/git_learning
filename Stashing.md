@@ -96,8 +96,10 @@ Aborting
 ```
 Conflicts are possible when applying a stash.
 
-
-***
+Commit or reset your local changes and then make 
+```
+$ git stash apply
+```
 
 
 
