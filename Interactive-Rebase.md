@@ -40,15 +40,15 @@ $ git rebase -i HEAD~3
 ```
 Editor (default script is in the original chronological order):
 ```
-pick Add capybaras to index. <- a
-pick Add capybaras page.     <- b             
-pick Actually, the plural is 'capybara'.          
+pick 1ee9572 Add capybaras to index. <- a
+pick 74e6f3e Add capybaras page.     <- b             
+pick 9afe987 Actually, the plural is 'capybara'.          
 ```
 Swap the order, save, and close the editor 
 ```
-pick Add capybaras page.     <- b
-pick Add capybaras to index. <- a           
-pick Actually, the plural is 'capybara'.          
+pick 0511ab7 Add capybaras page.     <- b
+pick 7d2edea Add capybaras to index. <- a           
+pick 44d59fa Actually, the plural is 'capybara'.          
 ```
 Commits get replayed in new order
 ```
@@ -56,4 +56,10 @@ $ git log --oneline
 0511ab7 Actually, the plural is 'capybara'
 7d2edea Add capybaras to index.
 44d59fa Add capybaras page.
+```
+### Change messages
+Change **pick** to **reword**, then save and exit
+```
+pick...
+reword 9afe987 Actually, the plural is 'capybara'.
 ```
