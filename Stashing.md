@@ -33,3 +33,10 @@ $ git stash apply stash@{1}
 ### Drop stashes
 
 `git stash drop` discards a stash
+
+For example:
+
+```
+$ git stash list
+stash@{0}: WIP on develop: b2bdead Add dogs.
+```
