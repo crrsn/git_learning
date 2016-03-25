@@ -32,6 +32,15 @@ $ git rebase -i HEAD <- there's no commits after HEAD!
 ```
 $ git log --oneline
 9afe987 Actually, the plural is 'capybara'.
-1ee9572 Add capybaras page.               |We want to re-order two commits
-74e6f3e Add capybaras to index.           |
+1ee9572 Add capybaras page.               |We want to re-order 
+74e6f3e Add capybaras to index.           |these two commits
+```
+```
+$ git rebase -i HEAD~3
+```
+Editor:
+```
+pick Add capybaras to index. <-
+pick Add capybaras page.     <-              
+pick Actually, the plural is 'capybara'.          
 ```
