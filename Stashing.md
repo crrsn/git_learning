@@ -56,13 +56,12 @@ Old stash is gone.
 
 ### Shortcuts
 
-`
+``
 git stash 
-`
-=
-`
+``
+``
 git stash save
-`
+``
 
 ``
 git stash apply
