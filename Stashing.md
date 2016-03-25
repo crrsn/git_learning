@@ -203,9 +203,21 @@ Dropped refs/stash@{0} (db990c0...)
 Normally, only **tracked** files get stashed
 
 `--include-untracked` **option causes untracked files to be stashed, too**
-
-
-
+```
+$ git stash save --include-untracked
+```
+When stash is restored, untracked files will be, too:
+```
+$ git stash pop
+# On branch develop
+# Changes not staged for commit:
+#
+#  modified:  index.html
+#
+# Untracked files:
+#
+#  gerbil.html
+```
 
 
 
