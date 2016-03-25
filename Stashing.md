@@ -144,6 +144,15 @@ $ git status
 #
 #  modified: index.html  <-- and stash everything else
 ```
+```
+$ git stash save
+Saved working directory and index state...
+```
+```
+$ git status
+# On branch develop nothing to commit (working directory clean)
+```
+Whoops, everything is stashed.
 
 
 
