@@ -1,5 +1,4 @@
-stash [stæʃ] (v) - прекращать, "завязывать", бросать, оставлять (что-л.)
-to stash drinking — бросить пить
+stash stæʃ (v)  = stash away утаивать, припрятывать, копить
 
 ### Saves modified files
 ```
