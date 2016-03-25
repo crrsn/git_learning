@@ -202,7 +202,7 @@ Dropped refs/stash@{0} (db990c0...)
 ### Include untracked 
 Normally, only **tracked** files get stashed
 
-
+`--include-untracked` **option causes untracked files to be stashed, too**
 
 
 
