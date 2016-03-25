@@ -59,7 +59,6 @@ Old stash is gone.
 ``
 git stash 
 ``
--
 ``
 git stash save
 ``
@@ -67,7 +66,6 @@ git stash save
 ``
 git stash apply
 ``
--
 ``
 git stash apply statsh@{0}
 ``
@@ -75,7 +73,6 @@ git stash apply statsh@{0}
 ``
 git stash drop
 ``
--
 ``
 git stash drop stash@{0}
 ``
@@ -83,7 +80,6 @@ git stash drop stash@{0}
 ``
 git stash pop
 ``
--
 ``
 git stash appy +
 git stash drop
