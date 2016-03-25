@@ -47,3 +47,9 @@ $ git stash drop
 Dropped (6dc716f...)
 ``` 
 Delete it from list
+
+```
+$ git stash list
+```
+
+Old stash is gone.
