@@ -257,7 +257,12 @@ $ git stash save "Add gerbils page, start index."
 Saved working directory and index state
 HEAD is now at b2bdead Add dogs.
 ```
-
+```
+$ git stash list
+stash@{0}: On develop: Add gerbils page, start index.
+stash@{1}: WIP on develop: b2bdead Add dogs.
+...
+```
 
 
 
