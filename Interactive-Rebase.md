@@ -38,9 +38,22 @@ $ git log --oneline
 ```
 $ git rebase -i HEAD~3
 ```
-Editor:
+Editor (default script is in the original chronological order):
 ```
-pick Add capybaras to index. <-
-pick Add capybaras page.     <-              
+pick Add capybaras to index. <- a
+pick Add capybaras page.     <- b             
 pick Actually, the plural is 'capybara'.          
+```
+Swap the order, save, and close the editor 
+```
+pick Add capybaras page.     <- b
+pick Add capybaras to index. <- a           
+pick Actually, the plural is 'capybara'.          
+```
+Commits get replayed in new order
+```
+$ git log --oneline
+0511ab7 Actually, the plural is 'capybara'
+7d2edea Add capybaras to index.
+44d59fa Add capybaras page.
 ```
