@@ -131,7 +131,15 @@ So be sure to do it manually
 $ git stash drop
 Dropped refs/stash@{0} (e4ba8a4...)
 ```
+### Keep index
 
+Suppose we have
+```
+$ git status
+# On branch develop
+# Changes to be commited:
+#  new file: gerbil.html <-- we want to commit this
+```
 
 
 
