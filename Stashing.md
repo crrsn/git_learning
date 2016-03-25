@@ -278,4 +278,4 @@ Switched to a new branch 'new_branch_name'
 #
 Dropped stash@{0} (5797b65...)
 ```
-
+New branch is an ordinary branch, ready for commits.
