@@ -189,7 +189,16 @@ $ git commit -m "Add gerbils section."
 create mode 100644 gerbil.html
 ```
 **Unstaged changes get stashed and restored as usual**
-
+```
+$ git stash pop
+# On branch develop
+# Changes not staged for commit:
+#
+#  modified:  index.html
+#
+no changes added to commit
+Dropped refs/stash@{0} (db990c0...)
+```
 
 
 
