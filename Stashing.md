@@ -31,3 +31,5 @@ $ git stash apply stash@{1}
 ```
 
 ### Drop stashes
+
+`git stash drop` discards a stash
