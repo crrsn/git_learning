@@ -263,6 +263,19 @@ stash@{0}: On develop: Add gerbils page, start index.
 stash@{1}: WIP on develop: b2bdead Add dogs.
 ...
 ```
+### Branching
+`git stash branch` checks a new branch out automatically...
 
+and drops the stash automatically
 
+```
+$ git stash branch new_branch_name stash@{0}
+Switched to a new branch 'new_branch_name'
+# On branch new_branch_name
+# Changes not staged for commit:
+#
+#  modified:  gerbil.html
+#
+Dropped stash@{0} (5797b65...)
+```
 
