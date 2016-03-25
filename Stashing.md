@@ -91,6 +91,8 @@ git stash drop
 $ git stash apply
 error: Your local changes to the following files would be overwritten by merge:
 index.html
+Please, commit your changes or stash them before you can merge.
+Aborting
 ```
 Conflicts are possible when applying a stash.
 
