@@ -154,7 +154,20 @@ $ git status
 ```
 Whoops, everything is stashed.
 
-
+Stashed staging areas get restored later:
+```
+$ git stash pop
+# On branch develop
+# Changes to be commited:
+#
+#  new file: gerbil.html
+#
+# Changes not staged for commit:
+#
+#  modified: index.html
+#
+Dropped refs/stash@{0} (de4105a...)
+```
 
 
 
