@@ -67,5 +67,17 @@ reword 9afe987 Actually, the plural is 'capybara'.
 Change the **pick** to **edit**.
 To split commits, we need to undo the changes that were just replayed:
 ```
-$ git reset HEAD^ (if we want to split the last commit)
+$ git reset HEAD^ (HEAD^ - if we want to split the last commit)
+Unstaged changes after reset:
+M  capybara.html
+M  index.html
+```
+since we don't specify **--hard**, files stay in working directory. Then commit them separately:
+```
+$ git add capybara.html
+$ git commit -m "Message..."
+```
+```
+$ git add index.html
+$ git commit -m "Message..."
 ```
