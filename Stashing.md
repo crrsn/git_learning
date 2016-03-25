@@ -169,7 +169,25 @@ $ git stash pop
 Dropped refs/stash@{0} (de4105a...)
 ```
 `--keep-index` option causes the staging area not to be stashed 
-
+```
+$ git stash save --keep-index
+Saved working directory and index state
+HEAD is now at b2bdead Add dogs.
+```
+```
+$ git status
+# On branch develop
+# Changes to be commited:
+#
+#  new file:  gerbil.html
+```
+Now we can commit the changes:
+```
+$ git commit -m "Add gerbils section."
+[gerbils 130a661] Add gerbils section.
+1 file changed, 7 insertions(+)
+create mode 100644 gerbil.html
+```
 
 
 
