@@ -218,6 +218,15 @@ $ git stash pop
 #
 #  gerbil.html
 ```
-
+### List options
+`git stash list` can take any option `git log` can. For example: `--stat` summarizes file changes
+```
+$ git stash list --stat
+stash@{0}: WIP on develop: b2bdead Add dogs.
+gerbil.html  |  7 +++++
+index.html   |  1 +
+wolf.html    |  7 -----
+3 files changed, ...
+```
 
 
