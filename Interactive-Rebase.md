@@ -22,3 +22,9 @@ pick eb7d5a0 Actually, the plural is 'capybara'.|
 # x, exec = run command (the rest of the line) using shell
 
 ```
+We didn't make any changes... - the default script just replays the same commits.
+
+Interactive rebase alters every commit **after** the one you specify:
+```
+$ git rebase -i HEAD <- there's no commits after HEAD!
+```
