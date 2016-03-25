@@ -104,6 +104,7 @@ $ git stash apply
 ...
 # modified: index.html
 ```
+Success!
 
 
 
