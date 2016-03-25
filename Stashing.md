@@ -279,3 +279,18 @@ Switched to a new branch 'new_branch_name'
 Dropped stash@{0} (5797b65...)
 ```
 New branch is an ordinary branch, ready for commits.
+### Clear stashes
+We have a lot of stashes we no longer need
+```
+$ git stash list
+stash@{0}: WIP on develop: b2bdead Add dogs
+...
+```
+Clears all of them at once
+```
+$ git stash clear
+```
+All gone
+```
+$ git stash list
+```
