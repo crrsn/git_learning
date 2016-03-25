@@ -89,7 +89,8 @@ git stash drop
 
 ```
 $ git stash apply
-error: Your local changes to the following files would be overwritten by merge
+error: Your local changes to the following files would be overwritten by merge:
+index.html
 ```
 Conflicts are possible when applying a stash.
 
