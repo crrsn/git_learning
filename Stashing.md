@@ -85,8 +85,13 @@ git stash appy +
 git stash drop
 ``
 
+### Stash conflicts
 
-
+```
+$ git stash apply
+error: Your local changes to the following files would be overwritten by merge
+```
+Conflicts are possible when applying a stash.
 
 
 ***
