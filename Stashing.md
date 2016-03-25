@@ -250,3 +250,14 @@ diff --git a/gerbil.html b/gerbil.html
 +<!DOCTYPE html>
 ...
 ```
+### Stash messages
+You can provide a stash message when saving
+```
+$ git stash save "Add gerbils page, start index."
+Saved working directory and index state
+HEAD is now at b2bdead Add dogs.
+```
+
+
+
+
