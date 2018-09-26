@@ -1,7 +1,4 @@
-* [Try Git](https://github.com/VisualGhost/Git/wiki/Try-Git)
-
-***
-
+0. [Try Git](https://github.com/VisualGhost/Git/wiki/Try-Git)
 1. [Git Basics](https://github.com/VisualGhost/Git/wiki/1.-Git-Basics)
 2. [Staging & Remotes](https://github.com/VisualGhost/Git/wiki/2.-Staging-&-Remotes)
 3. [Cloning & Branching](https://github.com/VisualGhost/Git/wiki/3.-Cloning-&-Branching)
