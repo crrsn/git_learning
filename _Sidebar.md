@@ -7,3 +7,7 @@
 7. [Interactive Rebase](https://github.com/VisualGhost/Git/wiki/7.-Interactive-Rebase)
 8. [Stashing](https://github.com/VisualGhost/Git/wiki/8.-Stashing)
 9. [Purging history](https://github.com/VisualGhost/Git/wiki/9.-Purging-history)
+
+*** 
+
+* [Commiting only one file or directory](https://github.com/VisualGhost/Git/wiki/Commiting-only-one-file-or-directory)
