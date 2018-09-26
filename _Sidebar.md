@@ -1,4 +1,4 @@
-[Try Git](https://github.com/VisualGhost/Git/wiki/Try-Git)
+* [Try Git](https://github.com/VisualGhost/Git/wiki/Try-Git)
 
 ***
 
