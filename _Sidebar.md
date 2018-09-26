@@ -5,3 +5,4 @@
 * [Remote branches & Tags](https://github.com/VisualGhost/Git/wiki/5.-Remote-branches-&-Tags)
 * [Rebase](https://github.com/VisualGhost/Git/wiki/6.-Rebase)
 * [Interactive Rebase](https://github.com/VisualGhost/Git/wiki/7.-Interactive-Rebase)
+* [Stashing](https://github.com/VisualGhost/Git/wiki/8.-Stashing)
