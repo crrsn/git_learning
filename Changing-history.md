@@ -4,7 +4,13 @@ If someone else pushed changes to the same branch, you probably want to avoid de
 ```
 git push --force-with-lease <repository> <branch>
 ```
+Example:
+```
+git push --force-with-lease origin develop
+```
 Or you can use `--force`:
 ```
 git push --force <repository> <branch>
 ```
+#### Note!!!:
+If you don't specify the branch explicitly, Git will use the default push settings. If your default push setting is "matching", then you may destroy changes on several branches at the same time.
