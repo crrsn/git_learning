@@ -12,5 +12,5 @@ Or you can use `--force`:
 ```
 git push --force <repository> <branch>
 ```
-#### Note!!!:
+#### Note!!!
 If you don't specify the branch explicitly, Git will use the default push settings. If your default push setting is "matching", then you may destroy changes on several branches at the same time.
