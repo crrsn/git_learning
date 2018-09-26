@@ -1,2 +1,3 @@
 * [Git Basics](https://github.com/VisualGhost/Git/wiki/1.-Git-Basics)
 * [Staging & Remotes](https://github.com/VisualGhost/Git/wiki/2.-Staging-&-Remotes)
+* [Cloning & Branching](https://github.com/VisualGhost/Git/wiki/3.-Cloning-&-Branching)
