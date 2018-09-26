@@ -11,3 +11,4 @@
 *** 
 
 * [Commiting only one file or directory](https://github.com/VisualGhost/Git/wiki/Commiting-only-one-file-or-directory)
+* [Deleting file from commit](https://github.com/VisualGhost/Git/wiki/Deleting-file-from-commit)
