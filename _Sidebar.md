@@ -4,3 +4,4 @@
 * [Collaboration basics](https://github.com/VisualGhost/Git/wiki/4.-Collaboration-basics)
 * [Remote branches & Tags](https://github.com/VisualGhost/Git/wiki/5.-Remote-branches-&-Tags)
 * [Rebase](https://github.com/VisualGhost/Git/wiki/6.-Rebase)
+* [Interactive Rebase](https://github.com/VisualGhost/Git/wiki/7.-Interactive-Rebase)
