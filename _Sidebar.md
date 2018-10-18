@@ -17,3 +17,4 @@
 * [Cherry Picking](https://github.com/VisualGhost/Git/wiki/Cherry-Picking)
 * [Changing history](https://github.com/VisualGhost/Git/wiki/Changing-history)
 * [How to remove local untracked files from the current git working tree](https://github.com/VisualGhost/Git/wiki/How-to-remove-local-untracked-files-from-the-current-git-working-tree)
+* [View the change history of a specific-file](https://github.com/VisualGhost/Git/wiki/View-the-change-history-of-a-specific-file)
