@@ -19,3 +19,4 @@
 * [How to remove local untracked files from the current git working tree](https://github.com/VisualGhost/Git/wiki/How-to-remove-local-untracked-files-from-the-current-git-working-tree)
 * [View the change history of a specific-file](https://github.com/VisualGhost/Git/wiki/View-the-change-history-of-a-specific-file)
 * [Add all files except one](https://github.com/VisualGhost/Git/wiki/Add-all-files-except-one)
+* [Remove git](https://github.com/VisualGhost/Git/wiki/Remove-git)
