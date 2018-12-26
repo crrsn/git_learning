@@ -20,3 +20,4 @@
 * [View the change history of a specific-file](https://github.com/VisualGhost/Git/wiki/View-the-change-history-of-a-specific-file)
 * [Add all files except one](https://github.com/VisualGhost/Git/wiki/Add-all-files-except-one)
 * [Remove git](https://github.com/VisualGhost/Git/wiki/Remove-git)
+* [How to delete multiples files in Github](https://github.com/VisualGhost/Git/wiki/How-to-delete-multiples-files-in-Github)
