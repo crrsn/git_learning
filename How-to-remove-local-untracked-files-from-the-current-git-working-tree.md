@@ -1,4 +1,4 @@
-### Simple Way to remove untracked files
+### Simple Way to remove untracked files [[1]](https://stackoverflow.com/a/37614185)
 
 The simple way is to **add all** of them first **and reset** the repo as below
 
