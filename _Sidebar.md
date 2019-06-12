@@ -11,6 +11,7 @@
 
 *** 
 
+* [Remove a folder from git tracking](https://github.com/VisualGhost/Git/wiki/Remove-a-folder-from-git-tracking)
 * [Commiting only one file or directory](https://github.com/VisualGhost/Git/wiki/Commiting-only-one-file-or-directory)
 * [Deleting file from commit](https://github.com/VisualGhost/Git/wiki/Deleting-file-from-commit)
 * [.gitignore](https://github.com/VisualGhost/Git/wiki/Gitignore)
