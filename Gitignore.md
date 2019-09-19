@@ -12,4 +12,4 @@ https://github.com/github/gitignore
 .externalNativeBuild
 ```
 
-See also: https://stackoverflow.com/a/21147445/7848330
+See also: [gitignore all files of extension in directory](https://stackoverflow.com/a/21147445/7848330)
