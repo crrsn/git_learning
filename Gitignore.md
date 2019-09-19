@@ -11,3 +11,5 @@ https://github.com/github/gitignore
 /captures
 .externalNativeBuild
 ```
+
+See also: https://stackoverflow.com/a/21147445/7848330
