@@ -25,3 +25,4 @@
 * [Clone with submodule](https://github.com/VisualGhost/Git/wiki/Clone-with-submodule)
 * [Clone Wiki](https://github.com/VisualGhost/Git/wiki/Clone-Wiki)
 * [Gitflow](https://github.com/VisualGhost/Git/wiki/Gitflow)
+* [How to make Git “forget” about a file](https://github.com/VisualGhost/Git/wiki/How-to-make-Git-“forget”-about-a-file-that-was-tracked-but-is-now-in-.gitignore%3F)
