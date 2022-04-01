@@ -1,6 +1,7 @@
 Assuming you're wanting to undo the effects of `git rm <file>` or `rm <file>` followed by `git add -A` or something similar:
 
-```# this restores the file status in the index
+```
+# this restores the file status in the index
 git reset -- <file>
 # then check out a copy from the index
 git checkout -- <file>
