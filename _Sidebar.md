@@ -11,6 +11,7 @@
 
 *** 
 
+* [Unstage a deleted file in git](https://github.com/VisualGhost/Git/wiki/Unstage-a-deleted-file-in-git)
 * [Remove a folder from git tracking](https://github.com/VisualGhost/Git/wiki/Remove-a-folder-from-git-tracking)
 * [Commiting only one file or directory](https://github.com/VisualGhost/Git/wiki/Commiting-only-one-file-or-directory)
 * [Deleting file from commit](https://github.com/VisualGhost/Git/wiki/Deleting-file-from-commit)
